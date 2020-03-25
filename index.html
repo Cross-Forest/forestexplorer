@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="Forest explorer">
+    <meta name="author" content="Guillermo Vega-Gorgojo">
+    
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <title>Forest explorer</title>
+
+	<!-- Config file --> 
+   	<script type="text/javascript" language="Javascript" src="etc/data/config.js"></script>
+   	
+	<!-- Ontology URIs file --> 
+   	<script type="text/javascript" language="Javascript" src="etc/data/onturis.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153397249-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());	
+	  // configuración de mi propiedad  
+	  //gtag('config', 'UA-153397249-1');
+	  // configuración de mi propiedad y mis métricas
+	  gtag('config', 'UA-153397249-1', {
+   			'custom_map': {
+     			'dimension1': 'queries',
+				'dimension2': 'patches',
+				'dimension3': 'plots'
+    	  }
+		});
+	</script>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" 
+    	integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    
+	<!-- Iconos Font Awesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/forinv.css" rel="stylesheet">
+    
+    <!-- Leaflet geo CSS --> 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  		crossorigin=""/>
+
+    <!-- Leaflet.Locate plug-in CSS -->       
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    
+    <!-- Javascript files -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+		integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+		crossorigin=""></script>
+	<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+
+	<script type="text/javascript" language="Javascript" src="libs/jquery-3.4.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>	
+	<script type="text/javascript" language="Javascript" src="libs/underscore-min.js"></script>		
+	<script type="text/javascript" language="Javascript" src="libs/mustache.min.js"></script>	
+	<script type="text/javascript" language="Javascript" src="libs/leaflet.circle-sector.js"></script>
+	<script type="text/javascript" language="Javascript" src="libs/jquery.color-2.1.2.min.js"></script>
+	<script type="text/javascript" language="Javascript" src="libs/color_mixer.js"></script>	
+	<script type="text/javascript" language="Javascript" src="libs/wellknown.js"></script>	
+	<script type="text/javascript" language="Javascript" src="libs/lz-string.min.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/main.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/boxes.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/species.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/uses.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/trees.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/plots.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/patches.js"></script>	
+	<script type="text/javascript" language="Javascript" src="js/places.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/provinces.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/icons.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/events.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/util.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/dataManager.js"></script>
+	<script type="text/javascript" language="Javascript" src="js/queryInterface.js"></script>
+	<script type="text/javascript" language="Javascript" src="etc/data/dictionary.js"></script>
+	<script type="text/javascript" language="Javascript" src="etc/data/templates.js"></script>	
+	<script type="text/javascript" language="Javascript" src="etc/data/queries.js"></script>
+  </head>
+
+  <body>    
+	<div id="mapid"></div>
+  </body>
+</html>
