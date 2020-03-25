@@ -1,4 +1,4 @@
-# Forest Explorer
+Forest Explorer
 ==========
 Forest Explorer is a web tool that can be used to easily browse the contents of the Cross-Forest dataset, a resource containing the forestry inventory and land cover map from Spain.
 
@@ -32,8 +32,8 @@ Screenshots
 ==========
 Some screenshots of Forest Explorer:
 
-![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot0.png)
+![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot0.png "screenshot 0")
 
-![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot1.png)
+![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot1.png "screenshot 1")
 
-![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot2.png)
+![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot2.png "screenshot 2")
