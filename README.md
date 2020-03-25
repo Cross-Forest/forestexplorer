@@ -32,8 +32,8 @@ Screenshots
 ==========
 Some screenshots of Forest Explorer:
 
-![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot0.png "screenshot 0")
+![screenshot 0](/images/snapshot0.png)
 
-![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot1.png "screenshot 1")
+![screenshot 1](/images/snapshot1.png)
 
-![screenshot](https://forestexplorer.gsic.uva.es/explorer/images/snapshot2.png "screenshot 2")
+![screenshot 2](/images/snapshot2.png)
