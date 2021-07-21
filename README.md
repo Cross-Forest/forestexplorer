@@ -17,6 +17,11 @@ These are some of the features of Forest Explorer:
 * Available in English and Spanish
 
 
+Please cite Forest Explorer as:
+
+> G. Vega-Gorgojo, J.M. Giménez-García, C. Ordóñez-Alonso, F. Bravo-Oviedo. Pioneering Easy-to-Use Forestry Data with Forest Explorer. Semantic Web. 2021. In press.
+
+
 Usage
 ==========
 Forest Explorer is a web application developed in Javascript. You can easily deploy it in your web server, but you need to set up your own SPARQL endpoint with the dataset. 
