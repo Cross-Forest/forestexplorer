@@ -19,7 +19,7 @@ These are some of the features of Forest Explorer:
 
 Please cite Forest Explorer as:
 
-> G. Vega-Gorgojo, J.M. Giménez-García, C. Ordóñez-Alonso, F. Bravo-Oviedo. Pioneering Easy-to-Use Forestry Data with Forest Explorer. Semantic Web. 2021. In press.
+> G. Vega-Gorgojo, J. M. Giménez-García, C. Ordóñez, and F. Bravo, Pioneering easy-to-use forestry data with forest explorer, Semantic Web, vol. 13, no. 2, pp. 147–162, Feb. 2022, doi: 10.3233/SW-210430.
 
 
 Usage
