@@ -21,6 +21,7 @@ Please cite Forest Explorer as:
 
 > G. Vega-Gorgojo, J. M. Giménez-García, C. Ordóñez, and F. Bravo, "Pioneering easy-to-use forestry data with Forest Explorer," Semantic Web, vol. 13, no. 2, pp. 147–162, Feb. 2022, doi: 10.3233/SW-210430.
 
+[Get the publication PDF](https://content.iospress.com/articles/semantic-web/sw210430)
 
 Usage
 ==========
